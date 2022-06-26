@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/**
+Colors: #112D4E   -header
+        #06283D
+        #fff
+        #064663
+
+
+*/
+
+body {
+    min-height: 100vh;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+.header,.top, .middle, .bottom {
+  
+    display: flex;
+    flex-direction: column;
+    padding:  12px 46px 38px ;
+    justify-content: center;  
+    
+}
+.header {
+    background-color: #112D4E;
+    color: #fff;
+    
+    
+}
+.header .top {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.header .navbar {
+    display: flex;
+    
+    
+    
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 26px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .bottom {
+    
+    display: flex;
+    flex-basis: auto;
+   
+}
+
+.header .bottom .subsection {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.header .bottom .subsection div {
+    width:250px;
+}
+.header .signup {
+    background-color: #06283D;
+    color: #fff;
+    padding: 6px 34px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.header .img-placeholder {
+    background-color: #678983;
+    width: 250px;
+    padding:  10vh 10px 0 ;
+    flex:1;
+    max-width: 350px;
+    line-height: 1.4rem;
+    text-align: center;
+    
+}
+section, footer {
+  text-align: center;
+    
+}
+.top .subsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.box-container {
+    justify-content: center;
+   
+    
+}
+
+.boxes {
+    border: 2px solid rgb(66, 146, 196);
+    padding: 50px;
+    width: 80px;
+    margin: 0 auto;
+    
+}
+
+.middle {
+    background-color: gray;
+    padding: 40px;
+    text-align: center;
+    min-height: 40vh;
+}
+.middle p{
+    width: 70%;
+    margin: 0 auto;
+}
+.right {
+    text-align: right;
+}
+.blue {
+    background-color: rgb(25, 145, 175);
+    border-radius: 5px;
+    padding: 20px;;
+    color: #fff;
+}
+section{
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #06283D;
+    min-height: 15vh;
+    color: #fff;
+    line-height: 6rem;
+
+}
